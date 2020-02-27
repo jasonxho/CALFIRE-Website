@@ -11,7 +11,7 @@ display: block;
 border-bottom: 3px solid #659940;
 /*margin: 0 15px;*/
 }
-.h1 {
+.row-bordered h1 {
   font-family: 'Saira Condensed';
 }
 
