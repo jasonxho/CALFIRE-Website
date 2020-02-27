@@ -1,3 +1,7 @@
 body {
     background-color: #f8f8f6;
   }
+borderClass {
+  border-bottom: 1px;
+  border-color: #659940
+}
