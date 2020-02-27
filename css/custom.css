@@ -2,9 +2,9 @@
     background-color: #f8f8f6;
   }
 .row-bordered:after {
-  content: "";
+  /*content: "";*/
   background-color:#dedcd4;
   display: block;
-  border-bottom: 1px solid #ccc;
-  margin: 0 15px;
+  border-bottom: 5px solid #659940;
+  /*margin: 0 15px;*/
 }
