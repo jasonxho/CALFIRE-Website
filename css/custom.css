@@ -1,7 +1,10 @@
-body {
+.body {
     background-color: #f8f8f6;
   }
-borderClass {
-  border-bottom: 25px;
-  border-color: #659940
+.row-bordered:after {
+  content: "";
+  background-color:#dedcd4;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
 }
