@@ -1,10 +1,17 @@
 .body {
-    background-color: #f8f8f6;
-  }
-.row-bordered:after {
-  /*content: "";*/
-  background-color:#dedcd4;
-  display: block;
-  border-bottom: 5px solid #659940;
-  /*margin: 0 15px;*/
+  background-color: #f8f8f6;
 }
+.row-bordered {
+  background-color:#dedcd4;
+}
+.row-bordered:after {
+content: "";
+background-color:black;
+display: block;
+border-bottom: 3px solid #659940;
+/*margin: 0 15px;*/
+}
+.h1 {
+  font-family: 'Saira Condensed Light';
+}
+
