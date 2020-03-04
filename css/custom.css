@@ -1,17 +1,30 @@
-.body {
+body {
   background-color: #f8f8f6;
 }
-.row-bordered {
-  background-color:#dedcd4;
+.top-buffer {
+  margin-top: 75px;
 }
-.row-bordered:after {
-content: "";
-background-color:black;
-display: block;
-border-bottom: 3px solid #659940;
-/*margin: 0 15px;*/
+.left-indent {
+  margin-left: 10%;
 }
-.row-bordered h1 {
-  font-family: 'Saira Condensed';
+.fa-check {
+  color:green;
 }
-
+.row p {
+  font-family: 'Open Sans Light';
+  color:#595959;
+}
+.row span {
+  font-family: 'Open Sans';
+}
+.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.breadcrumb {
+  background: #f8f8f6;
+}
+.caption {
+  position: absolute;
+  color: white;
+}
