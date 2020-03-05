@@ -47,7 +47,7 @@ body {
   transition: all .5s;
 }
 .bg-one {
-  background-image: url(../Images/MPC1.jpg);
+  background-image: url(../Images/MPC1.png);
 }
 .mpcButtonChild a {
   display: block;
