@@ -62,9 +62,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.breadcrumb {
-  background: #f8f8f6;
-}
+
 .caption_homepage {
   position: absolute;
   color: white;
@@ -80,7 +78,37 @@ body {
 
 
 
+/** Breadcrumbs **/
+.breadcrumb {
+  padding: 19px;
+  font-size: 1.5em;
+  border-radius: 5px !important;
+  background-color: #f8f8f6;
+}
 
+.breadcrumb a {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Open Sans';
+}
+.second a:hover {
+  color: rgb(101, 153, 64) !important
+}
+
+.active-2 {
+  border-bottom:3px solid rgb(101, 153, 64) !important;
+  padding-bottom: 15px !important;
+}
+
+.second span:hover {
+  padding-bottom: 15px !important;
+  border-bottom: 3px solid  rgb(101, 153, 64) !important 
+}
+
+.breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before {
+  content: "•";
+  color: green;
+}
 
 
 
