@@ -1,24 +1,28 @@
-@media (min-width: 500px) {
-  /* html { font-size: .75rem; } */
-  .row p {font-size: 1rem;}
+@media (min-width: 300px) {
+  .zoom h2 {font-size: 18px;}
+  .row h1.display-3 {font-size: 40px;}
 }
 @media (min-width: 768px) {
-  /* html { font-size: .75rem; } */
-  .row p {font-size: 1rem;}
-  .zoom h1 {font-size: 1.5rem;}
-
+  .zoom h2 {font-size: 18px;}
+  .row h1.display-3 {font-size: 48px;}
   }
+@media (min-width: 1280px) {
+  .zoom h2 {font-size: 20px;}
+  .row h1.display-3 {font-size: 55px;}
+  .col-subtext {transform: translateY(-40%);}
+  } 
 @media (min-width: 1920px) {
-  /* html { font-size: 1.75rem; } */
-  .row p {font-size: 1rem;}
-  .zoom h1 {font-size: 2rem;}
+  .zoom h2 {font-size: 25px;}
+  .row h1.display-3 {font-size: 68px;}
+  .col-subtext {transform: translateY(-50%);}
 }
 @media (min-width: 2560px) {
-  .row p {font-size: 1rem;}
-/*   .display-4 {font-size: 6rem;} */
-
-  .row span {font-size: 1.25rem;}
-  .zoom h1 {font-size: 2.5rem;}
+  .zoom h2 {font-size: 30px;}
+  .row h1.display-3 {font-size: 80px;}
+  .col-subtext {transform: translateY(-50%);}
+}
+html { 
+  scroll-behavior: smooth;
 }
 body {
   background-color: #f8f8f6;
@@ -36,6 +40,10 @@ body {
   text-decoration: none;
   color: inherit;
   transform: scale(1.2);
+}
+.zoom img {
+  width: 60px;
+  height: 60px;
 }
 .top-buffer {
   margin-top: 75px;
@@ -73,15 +81,10 @@ body {
   color: white;
 }
 
-
-
-
-
-
 /** Breadcrumbs **/
 .breadcrumb {
   padding: 19px;
-  font-size: 1.5em;
+  font-size: 20px;
   border-radius: 5px !important;
   background-color: #f8f8f6;
 }
@@ -201,7 +204,7 @@ font-weight: 300;
         transition:          transform .2s ease-out, opacity .3s ease-out;
 }
 .hex h1 {
-bottom: 50%;
+bottom: 48%;
 padding-top:50%;
 z-index: 1;
 font-size: 1vw;
@@ -217,12 +220,11 @@ bottom: 0;
 left: 45%;
 width: 10%;
 text-align: center;
-border-bottom: 1px solid #fff;
 }
 .hex p {
-top: 50%;
+top: 48%;
 padding-bottom:50%;
-font-size: 1vw;
+font-size: .7vw;
 -webkit-transform:translate3d(0,100%,0);
     -ms-transform:translate3d(0,100%,0);
         transform:translate3d(0,100%,0);
