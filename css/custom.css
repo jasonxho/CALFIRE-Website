@@ -1,25 +1,54 @@
-@media (min-width: 300px) {
-  .zoom h2 {font-size: 18px;}
+@media (min-width: 0px) {
+  .zoom h2 {font-size: 14px;}
   .row h1.display-3 {font-size: 40px;}
+  .imgbackground {
+    height: 1900px;
+  }
 }
 @media (min-width: 768px) {
   .zoom h2 {font-size: 18px;}
   .row h1.display-3 {font-size: 48px;}
+  .col-header-img {
+    position:absolute; 
+    transform:translateX(445%);
+  }
+  .imgbackground {
+    height: 1300px;
+  }
   }
 @media (min-width: 1280px) {
   .zoom h2 {font-size: 20px;}
   .row h1.display-3 {font-size: 55px;}
   .col-subtext {transform: translateY(-40%);}
+  .col-header-img {
+    position:absolute; 
+    transform:translateX(450%);
+  }
   } 
 @media (min-width: 1920px) {
   .zoom h2 {font-size: 25px;}
   .row h1.display-3 {font-size: 68px;}
   .col-subtext {transform: translateY(-50%);}
+  .col-header-img {
+    position:absolute; 
+    transform:translateX(468%);
+  }
 }
 @media (min-width: 2560px) {
   .zoom h2 {font-size: 30px;}
   .row h1.display-3 {font-size: 80px;}
   .col-subtext {transform: translateY(-50%);}
+  .col-header-img {
+    position:absolute; 
+    transform:translateX(468%);
+  }
+  .imgbackground {
+    height: 1500px;
+  }
+}
+.imgbackground {
+  width: 100%; 
+  min-height: 1500px;
 }
 html { 
   scroll-behavior: smooth;
